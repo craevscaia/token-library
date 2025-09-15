@@ -1,1 +1,22 @@
-
+{
+  "$schema": "https://schemas.tokens.studio/token.schema.json",
+  "global": {
+    "color": {
+      "primary": { "value": "#7C3AED", "type": "color" }
+    },
+    "size": {
+      "space-8": { "value": "8", "type": "sizing" }
+    }
+  },
+  "$themes": [
+    {
+      "id": "light",
+      "name": "Light",
+      "selectedTokenSets": { "global": "source" },
+      "group": "theme"
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": ["global"]
+  }
+}
